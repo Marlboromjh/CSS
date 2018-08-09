@@ -1,0 +1,241 @@
+
+*{
+    padding: 0;
+	margin:0;
+}
+body {
+	min-width: 1400px;
+}
+.header{
+	width: 100%;
+	height: 100px;
+	background-color: #07cbc9;
+	position: fixed;
+	top: 0;
+	z-index: 4;
+}
+.header .logo img{
+	width:300px;
+	height: 85px;
+	margin-top: 8px;
+	margin-left: 150px;
+	float: left;
+}
+.header .menu{
+	height: 100px;
+	float: right;
+	color: #ffffff;
+}
+.header .menu ul{
+	margin-right: 50px;
+}
+.header .menu li{
+	float: right;
+	list-style-type: none;
+	width: 80px;
+	font-family: "微软雅黑";
+	color: #ffffff;
+	font-size: 15px;
+	line-height: 100px;
+	font-weight: bold;
+	text-align: center;
+}
+.main {
+	margin-top: 100px;
+}
+.main .pic img{
+	width: 100%;
+	height: 600px;
+	position: relative;
+}
+.topLayer{
+	background-color: #000000;
+	opacity: 0.5;
+	z-index: 1;
+	position: absolute;
+	top: 100px;
+	width: 100%;
+	height: 600px;
+}
+.main .form{
+	z-index: 1;
+	width: 500px;
+	/*height: 300px;*/
+	position: absolute;
+	top: 400px;
+	margin-top: -275px;
+	right: 50%;
+	margin-right: -250px;
+	text-align: center;
+	line-height: 30px;
+}
+.form input, textarea {
+	width: 400px;
+	background-color:transparent;
+	border: 1px solid #cccccc;
+	color: #bbbbbb;
+	height: 30px;
+	margin: 10px;
+}
+#login {
+	width: 120px;
+	height: 40px;
+}
+#text {
+	height: 90px;
+}
+.about {
+	margin-top: 20px;
+}
+h1, #center, #core {
+	text-align: center;
+	margin-bottom: 30px;
+}
+#down {
+	margin-bottom: 10px;
+}
+.hp {
+	margin-bottom: 30px;
+	margin-left: 20px;
+	color: #ffffff;
+}
+.line {
+	width: 40px;
+	background-color: #07cbc9;
+	height: 2px;
+	position: relative;
+	left: 50%;
+	margin-left: -20px;
+	margin-bottom: 20px;
+}
+p {
+	line-height: 25px;
+}
+.group {
+	display: flex;
+	padding-left: 25%;
+	padding-right: 20%;
+}
+.textName, .picName, .num {
+	margin-left: 20px;
+}
+.textName {
+	position: relative;
+	left: -19%;
+}
+#z_index {
+	z-index: 2;
+	border: 1px solid #000;
+	width: 350px;
+	position: absolute;
+	left: 50%;
+	margin-left: -40%;
+	margin-top: 5%;
+	background-color: #ffffff;
+	opacity: 0.7;
+	height: 250px;
+	padding: 20px;
+}
+.btn {
+	background: #000000;
+	color: #ffffff;
+	width: 60px;
+	height: 30px;
+	text-align: center;
+	border: 2px solid #000000;
+	padding-top: 5px;
+}
+b {
+	font-size: 20px;
+	text-align: left;
+}
+.num1, .num2 {
+	border: 1px solid #07cbc9;
+	width: 150px;
+	text-align: center;
+	padding: 20px;
+}
+.num1 {
+	margin-bottom: 20px;
+}
+#seat {
+	position: absolute;
+	left: 10%;
+}
+.textPic1, .textPic2 {
+	display: flex;
+	justify-content: center;
+}
+.textPic1 {
+	margin-top: 30px;
+}
+.textPic2 {
+	margin-top: 0;
+	padding: 0;
+}
+.icon2 img, .init {
+	width: 320px;
+	height: 320px;
+}
+.init {
+	background-color: #07cbc9;
+}
+h3 {
+	margin-top: 20px;
+	margin-left: 20px;
+	color: #ffffff;
+}
+.btn1 {
+	background: #000000;
+	color: #ffffff;
+	width: 60px;
+	height: 30px;
+	text-align: center;
+	margin-left: 40%;
+	border: 2px solid #000000;
+	padding-top: 5px;
+}
+.gallery {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.picBottom {
+	display: flex;
+	justify-content: center;
+}
+.picBottom .exp {
+	margin: 20px;
+	background-color: #000000;
+}
+.textExp {
+	padding-top: 15px;
+	padding-left: 10px;
+	padding-bottom: 15px;
+	background-color: #000000;
+	color: #ffffff;
+}
+.footer {
+	background-color: #07cbc9;
+	text-align: center;
+	height: 60px;
+	color: #ffffff;
+	padding-top: 40px;
+}
+
+/*鼠标移动样式*/
+/* 未访问：白色、无下划线  */
+a:link {color: #ffffff; text-decoration:none;}
+.menu li:hover {
+	background-color: #000000;
+}
+.form input:hover, .form textarea:hover {
+	border: 1px solid #07cbc9;
+}
+#login:hover {
+	border: 0;
+	background-color: #07cbc9;
+}
+.btn:hover, .btn1:hover {
+	background-color: #ffffff;
+	color: #000000;
+}
